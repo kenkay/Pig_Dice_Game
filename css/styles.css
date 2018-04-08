@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  background-color: white ;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p, h1, h2 {
+  font-family: 'Yatra One', cursive;
+}
+
+.jumbotron {
+  background-color: #ffe6e6;
+}
+#piggy_right {
+  float: right;
+}
+
+#piggy_left {
+  float: left;
+}
