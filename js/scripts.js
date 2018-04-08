@@ -14,8 +14,8 @@ $(document).ready(function() {
     var inputPlayerOne = $("input#player_one").val();
     var inputPlayerTwo = $("input#player_two").val();
 
-    $("p#player_1").text(inputPlayerOne);
-    $("p#player_2").text(inputPlayerTwo);
+    $("h3#player_1").text(inputPlayerOne);
+    $("h3#player_2").text(inputPlayerTwo);
 
     $("input#player_one").val("");
     $("input#player_two").val("");

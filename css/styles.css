@@ -7,7 +7,7 @@ h1, h2 {
   text-align: center;
 }
 
-p, h1, h2 {
+p, h1, h2, h3 {
   font-family: 'Yatra One', cursive;
 }
 
@@ -24,4 +24,8 @@ p, h1, h2 {
 
 #show-player {
   display: none;
+}
+
+#column{
+  margin-left: 150px;
 }
