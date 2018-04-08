@@ -9,6 +9,7 @@ function newPlayers(one, two) {
 $(document).ready(function() {
   $("form#players").submit(function(event) {
     event.preventDefault();
+    $("#show-player").show();
 
     var inputPlayerOne = $("input#player_one").val();
     var inputPlayerTwo = $("input#player_two").val();
